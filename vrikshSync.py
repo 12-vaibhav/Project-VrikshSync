@@ -54,6 +54,7 @@ def extractExifGps(imageFile):
         return None, None, None
     
 # streamLit UI
+st.set_page_config(page_title="VrikshSync", layout="centered")
 st.set_page_config(page_title="Live Sapling Tracker", layout="centered")
 st.title("🌱 Live Sapling Geotag Integrator")
 st.write("Upload processed photos to instantly log them into the central organizational spreadsheet.")
